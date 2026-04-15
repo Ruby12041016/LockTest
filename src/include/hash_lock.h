@@ -1,7 +1,7 @@
 #include <pthread.h>
 
 #define HASHNUM 13
-#define HASH(key) key % HASHNUM
+#define hash(key) key % HASHNUM
 
 typedef struct HashNode {
   int value;
